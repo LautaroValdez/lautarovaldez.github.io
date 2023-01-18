@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link a CSS -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nv_logo">Lautaro</a>
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link  active-link">
+                            <i class='bx bx-home-alt nav_icon' ></i>Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#profile" class="nav_link">
+                            <i class='bx bx-user nav_icon'></i>Perfil
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#education" class="nav_link">
+                            <i class='bx bxs-book nav_icon'></i>Educacion
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class='bx bx-receipt nav_icon'></i>Habilidades
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#certificates" class="nav_link">
+                            <i class='bx bx-award nav_icon' ></i>Certificados
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#experience" class="nav_link">
+                            <i class='bx bxs-briefcase nav_icon'></i>Experiencia
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- Todo lo que este adentro de este div es generado en PDF -->
+
+        <div class="resume" id="area-cv">
+            <div class="resume_left">
+                <!--========== INICIO ==========-->
+                <section class="home" id="home">
+                    <div class="home_container section bd-grid">
+                        <div class="home_data bd-grid">
+                            <img src="assets/img/perfil.jpg" alt="" class="home_img">
+
+                            <h1 class="home_title">LAUTARO <b>VALDEZ</b></h1>
+                            <h3 class="home_profession">Estudiante de programacion</h3>
+
+                            <!-- Boton para descargar el CV guardado en la carpeta pdf -->
+                            <div>
+                                <a download="" href="assets/pdf/CurriculumVitae.pdf" class="home_button-movil">Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home_addres bd-grid">
+                            <span class="home_information">
+                                <i class='bx bx-map home_icon'></i> San Fco Solano - Quilmes (Argentina)
+                            </span>
+                            <span class="home_information">
+                                <i class='bx bx-envelope home_icon' ></i> lautarovaldez1@outlook.com.ar
+                            </span>
+                            <span class="home_information">
+                                <i class='bx bx-phone home_icon' ></i> +54 1151372165
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Boton para cambiar de modo -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+    
+                    <!-- Boton para generar y descargar el pdf. Disponible para escritorio -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                </section>
+
+                
+                <!-- SOCIAL -->
+                <section class="social section">
+                    <h2 class="section-title">REDES</h2>
+
+                    <div class="social_container bd-grid">
+                        <a href="https://www.linkedin.com/in/lautaro-valdez-07039a261/" target="_blank" class="social_link">
+                            <i class='bx bxl-linkedin-square social_icon'></i> Lautaro Valdez
+                        </a>
+
+                        <!-- Planeo agregar estas redes sociales cuando tenga unos perfiles más profesionales -->
+                        <a href="#" target="_blank" class="social_link"> 
+                            <i class='bx bxl-facebook social_icon'></i> Lauty Valdez Araujo
+                        </a>
+                        <a href="#" target="_blank" class="social_link"> 
+                            <i class='bx bxl-instagram social_icon' ></i> l.valdezaraujo
+                        </a>
+                    </div>
+                </section>
+
+                <!-- PERFIL -->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">PERFIL</h2>   
+                     <p class="profile_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestiae iure voluptates beatae voluptas, pariatur  esse accusamus quo quam cumque fuga qui omnis consectetur natus modi voluptatem inventore ratione velit.</p>
+                </section>
+                
+
+                <!-- HABILIDADES -->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Habilidades</h2>
+
+                    <div class="skills_content bd-grid">
+                        <ul class="skills_data">
+                            <li class="skills_name">
+                                <span class="skills_circle"></span> HTML
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span> CSS
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span> BootStrap
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span> JavaScript
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span> Java
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="resume_right">
+
+                <!-- EDUCACION -->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Educacion</h2>
+                    <div class="education_container bd-grid">
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">BACHILLER EN CS. SOCIALES</h3>
+                                <span class="education_studies">Instituto San José Obrero</span>
+                                <span class="education_year">2006 - 2017</span>
+                            </div>
+                        </div>
+
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rounder"></span>
+                                </div>
+                           
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title">LICENCIATURA EN INFORMATICA</h3>
+                                    <span class="education_studies">Universidad Nacional de Quilmes</span>
+                                    <span class="education_year">2017 - Actualidad</span>
+                                </div>
+                            </div>
+                    </div>
+                </section>
+
+                <!--========== CERTIFICADOS ==========-->
+                <section class="certificate-section" id="certificates">
+                    <h2 class="section-title">Certificados</h2>
+
+                    <div class="certificate_containers bd-grid">
+                        <div class="certificate_content">
+                            <h3 class="certificate_title">Introducción al desarrollo web I</h3>
+                            <p class="certificate_provider">Google Activate</p>
+                            <p class="certificate_description">Introducción al Desarrollo Web I es la primera parte del curso propuesto por Google junto con la Universidad de Alicante en el cual se enseña a crear tus propias páginas web profesionales adaptables a distintos dispositivos. Tome este curso como mi primer motor de arranque para introducirme al mundo del desarrollo web</p>
+                        </div>
+                    </div>
+                </section>
+           
+                <!--========== EXPERIENCIA ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experiencia</h2>
+
+                    <div class="experience_container bd-grid">
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                                <span class="experience_line"></span>
+                            </div>
+
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">PROFESOR PARTICULAR DE INGLÉS (Nivel Primario y Secundario)</h3>
+                                <span class="experience_company">Desde 2020 a 2021</span>
+                                <p class="experience_description">Me desarrolle de forma autonoma como profesor particular para los alumnos de diferentes escuelas de forma remota y presencial a través de diferentes medios de comunicación como Zoom, Google Hangouts, Discord y similares.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                            </div>
+
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">PROFESOR PARTICULAR DE INFORMATICA</h3>
+                                <span class="experience_company">Desde 2020 a 2021</span>
+                                <p class="experience_description">Realicé diferentes clases para alumnos de mi zona durante la pandemia en una cooperativa para enseñarles como utilizar lo más básico de las herramientas del Paquete Office y así puedan atrávesar sus clases virtuales de la forma más amena posible.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== LENGUAJES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">Lenguajes</h2>
+
+                    <div class="languages_container">
+                        <ul class="languages_content bd-grid">
+                            <li class="languages_name">
+                                <span class="languages_circle"></span> Español
+                            </li>
+                            <li class="languages_name">
+                                <span class="languages_circle"></span> Inglés
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== INTERESES ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Intereses</h2>
+
+                    <div class="interests_container bd-grid">
+                        <div class="interests_content">
+                            <i class='bx bx-headphone interests_icon' ></i>
+                            <span class="interest_name">Musica</span>
+                        </div>
+
+                        <div class="interests_content">
+                            <i class='bx bx-joystick interests_icon'></i></i>
+                            <span class="interest_name">Videojuegos</span>
+                        </div>
+
+                        <div class="interests_content">
+                            <i class='bx bx-book interests_icon'></i></i>
+                            <span class="interest_name">Lectura</span>
+                        </div>
+                        
+                        <div class="interests_content">
+                            <i class='bx bx-wrench interests_icon'></i>
+                            <span class="interest_name">Mantenimiento de PC</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scroll top -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop_icon'></i>
+    </a>
+
+    <!-- HTML2PDF --> 
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+    
+    <!-- JavaScript Principal -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
